@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: aquamarine;
+}
+
+.title {
+	text-align: center;
+}
+
+.title p {
+	font-size: 1.2rem;
+}
+
+.profilePic {
+	text-align: center;
+}
+
+.profilePic img {
+	border-radius: 25px;
+}
