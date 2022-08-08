@@ -28,7 +28,6 @@ body {
 
 .pictureMini {
 	width: 60%;
-	background-color: chartreuse;
 	display: flex;
 	justify-content: center;
 }
