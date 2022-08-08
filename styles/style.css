@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: aquamarine;
+	background-color: rgba(229, 178, 248, 0.494);
 }
 
 .title {
@@ -16,6 +16,51 @@ body {
 	text-align: center;
 }
 
+.image {
+	width: 50%;
+	height: auto;
+}
 .profilePic img {
-	border-radius: 25px;
+	border-radius: 50%;
+	width: 25%;
+	height: auto;
+}
+
+.pictureMini {
+	width: 60%;
+	background-color: chartreuse;
+	display: flex;
+	justify-content: center;
+}
+
+.imageRoot {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.image-main {
+	height: 60vh;
+}
+.miniPictures {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+}
+
+@media (max-width: 576px) {
+	.image-main {
+		height: 40vh;
+		background-color: rgba(229, 178, 248, 0.494);
+	}
+	.imageRoot {
+		width: 110%;
+		text-align: center;
+		margin-top: 3rem;
+	}
+	.pictureMini {
+		width: 100%;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		cursor: pointer;
+	}
 }
